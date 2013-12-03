@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language-pack>
+  <!--
+		This language file gets loaded if TinyMCE is in developer mode. This XML is used to generate all <code>.js/<code_dlg>.js files.
+		Consult the Wiki for more details: http://wiki.moxiecode.com/index.php/TinyMCE:Creating_Language
+	-->
+    
+    <header>
+        <author>Moxiecode Systems AB</author>
+        <version major="" minor="" releasedate="2011-04-22" />
+        <description>Това е български езиков пакет за MCImageManager</description>
+    </header>
+    <language code="bg" title="Български изиков пакет" dir="ltr">
+	<group target="common">
+		<item name="title">ikmicro.com мениджър на изображения</item>
+		<item name="filemanager">Файл мениджър</item>
+		<item name="createdir">Създай директория</item>
+		<item name="refresh">Презареди</item>
+		<item name="upload">Качи</item>
+		<item name="help">Помощ</item>
+		<item name="edit">Промени</item>
+		<item name="deleteit">Изтрий</item>
+		<item name="view">Виж</item>
+		<item name="insert">Вмъкни</item>
+		<item name="add_favorite">Добави в любими</item>
+		<item name="directory">Избери директория</item>
+		<item name="removefavorite">Изтрий от любими</item>
+		<item name="loading">Зареждане...</item>
+		<item name="filter">Филтър</item>
+		<item name="alert_ok">ОК</item>
+		<item name="confirm_yes">Да</item>
+		<item name="confirm_no">Не</item>
+		<item name="prev">Предишен</item>
+		<item name="next">Следващ</item>
+		<item name="image_data">Вземане на информация за изображението, моля изчакайте...</item>
+		<item name="download">Download</item>
+		<item name="page">Page</item>
+		<item name="of">of</item>
+	</group>
+	<group target="button">
+		<item name="create">Създай</item>
+		<item name="cancel">Откажи</item>
+		<item name="apply">Обнови</item>
+		<item name="save">Запиши</item>
+	</group>
+	<group target="error">
+		<item name="demo">Това дайствие е ограничено в демо режим.</item>
+		<item name="no_filesystem">Не е намерена фйлова система за пътя: {path}.</item>
+		<item name="no_access">Няма достъп до този файл/директория.</item>
+		<item name="no_write_access">Директорията няма права за промяна.</item>
+		<item name="file_not_exists">Файлът/Директорията не е намерен/а.</item>
+		<item name="invalid_filename">Името на фйла не е валидно.</item>
+		<item name="remove_favorite_failed">Неуспешно премахване от вашия списък с любими.</item>
+		<item name="template_missing">Избраният темплийт не съществува.</item>
+		<item name="folder_exists">Вече съществува директория с това име.</item>
+		<item name="createdir_failed">Грешка! Директорията не е създадена.</item>
+		<item name="upload_failed">Неуспешно качване, проверете правата на директорията.</item>
+		<item name="file_exists">Вече съществува файл с това име.</item>
+		<item name="error_to_large">Фйалът, който се опитвате да качите, е мого голям.</item>
+		<item name="delete_failed">Файловете не могат да бъдат изтрити.</item>
+		<item name="crop_failed">Не можете да изрежете изображението.</item>
+		<item name="resize_failed">Не можете да изрежете изображението.</item>
+		<item name="rotate_failed">Завъртането е неуспешно.</item>
+		<item name="flip_failed">Обръщенето е неуспешно.</item>
+		<item name="save_failed">Съхраняването е неуспешно.</item>
+	</group>
+	<group target="message">
+		<item name="save_success">Файлът е съхранен.</item>
+		<item name="keepalive">Keepalive request.</item>
+		<item name="delete_success">Файлът е изтрит успешно.</item>
+		<item name="directory_ok">Директорията е създадена.</item>
+		<item name="upload_ok">Качването е успешно.</item>
+		<item name="crop_success">Изрязването е узпешно.</item>
+		<item name="resize_success">Преоразмеряването е успешно.</item>
+		<item name="rotate_success">Завъртането е узпешно.</item>
+		<item name="flip_success">Обръщането е успешно.</item>
+	</group>
+	<group target="panel">
+		<item name="categories">Категории</item>
+		<item name="folders">Папки</item>
+		<item name="favorites">Любими</item>
+		<item name="history">История</item>
+	</group>
+	<group target="view">
+		<item name="title">Прегелдай</item>
+		<item name="mode">Изглед:</item>
+		<item name="thumbnail">Миниатюри</item>
+		<item name="textlist">Списък</item>
+		<item name="images_per_page">изображения/страница</item>
+		<item name="confirm_delete">Сигурни ли сте, че желаете да изтриете фйала.</item>
+		<item name="keyboard_next">Клавишна комбинация(напред): SPACE,N,RIGHTARROW,PAGE DOWN</item>
+		<item name="keyboard_prev">Клавишна комбинация(назад): P,LEFTARROW,PAGE UP</item>
+		<item name="dimensions">Размери</item>
+		<item name="confirm_remove_favorite">Сигурни ли сте, че желаете да премахнете от вашия списък с любими?</item>
+	</group>
+	<group target="createdir">
+		<item name="title">Създай директория</item>
+		<item name="description">Въведете има на директорията, която искате да създадете.</item>
+		<item name="template">Темплийт:</item>
+		<item name="select_template">-- Избери темплийт --</item>
+		<item name="directory_name">Име на директорията:</item>
+		<item name="create_in">Създадена в:</item>
+		<item name="progress">Създаване на директория, моля изчакайте...</item>
+	</group>
+	<group target="upload">
+		<item name="title">Качи</item>
+		<item name="description">Използвайте формата, за да качите файлове.</item>
+		<item name="valid_extensions">Валидни разширения:</item>
+		<item name="max_upload_size">Максимален размер на файла:</item>
+		<item name="file_to_upload">Файл:</item>
+		<item name="as_file_name">Като име на файла:</item>
+		<item name="path">Път:</item>
+		<item name="button_upload">Качи</item>
+		<item name="browse">Добави файл(ове)</item>
+		<item name="progress">Качване...</item>
+		<item name="upload_warn">Файловете са качени, сте сигурни, че искате да отмените качването?</item>
+		<item name="statusrow">Има {files} файла (total {size}) , чакащи да бъдат качени.</item>
+		<item name="progressinfo">{loaded} от {total} качени с {speed}/s.</item>
+		<item name="abort">Спри качване</item>
+		<item name="add_more">Добавяне още?</item>
+		<item name="upload_to_server">Качи на сървъра</item>
+		<item name="cancelled">Качването е отменено</item>
+		<item name="choose_files">Избери файлове</item>
+		<item name="basic_upload">Ако имате проблем с качването, ползвайте {a}просто качване{/a}.</item>
+		<item name="remove">Премахни</item>
+		<item name="file">Файл</item>
+		<item name="size">Размер</item>
+		<item name="status">Статус</item>
+		<item name="no_valid_files">Не са маркирани валидни файлове, моля опитайте отново.</item>
+	</group>
+	<group target="edit_image">
+		<item name="title">ikmicro.com мениджър на промяна на изображенията</item>
+		<item name="save">Съхрани</item>
+		<item name="revert">Връщане</item>
+		<item name="crop">Изрежи</item>
+		<item name="resize">Преоразмери</item>
+		<item name="please_wait">Обработка на изображение, моля изчакайте ...</item>
+		<item name="constrain">Запазване на пропорциите</item>
+		<item name="left">Наляво</item>
+		<item name="top">Нагоре</item>
+		<item name="width">Дължина</item>
+		<item name="height">Широчина</item>
+		<item name="save_as">Съхрани като</item>
+		<item name="flip">Обърни</item>
+		<item name="rotate">Завърти</item>
+		<item name="reload">Презареди</item>
+		<item name="horizontal">Хоризонтално</item>
+		<item name="vertical">Вертикално</item>
+		<item name="saving_wait">Съхраняване на изображение, моля изчакайте...</item>
+		<item name="confirm_revert">Сигурни ли сте, че искате да се върнете към последното записано изображение?</item>
+		<item name="loading">Зареждане на изображение, моля изчакайте ...</item>
+		<item name="confirm_no_save">Are you sure that you don&#039;t want to save the changes you made to the image?</item>
+	</group>
+	<group target="tinymce">
+		<item name="insertimage_desc">Вмъкни картинка</item>
+		<item name="replaceimage_desc">Замени картинка</item>
+		<item name="editimage_desc">Edit image</item>
+	</group>
+	<group target="favorites">
+		<item name="special_folder_title">Любими</item>
+		<item name="addfavorites">Добави в любими</item>
+		<item name="removefavorites">Премахни от любими</item>
+		<item name="confirm_remove_favorite">Сигурни ли сте, че искате да премахнете това от любими?</item>
+		<item name="remove_favorite_failed">Провалено премахване.</item>
+	</group>
+	<group target="history">
+		<item name="special_folder_title">История</item>
+	</group>
+	<group target="uploaded">
+		<item name="special_folder_title">Качени</item>
+	</group>
+    </language>
+</language-pack>
